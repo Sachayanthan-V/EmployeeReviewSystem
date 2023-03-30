@@ -1,0 +1,30 @@
+{
+  "name": "employeereviewsystem",
+  "version": "1.0.0",
+  "description": "Employee Review/performance tracking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachayanthan-V/EmployeeReviewSystem.git"
+  },
+  "keywords": [
+    "employeereview",
+    "statusTracking",
+    "employeestatus"
+  ],
+  "author": "SachayanthanV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sachayanthan-V/EmployeeReviewSystem/issues"
+  },
+  "homepage": "https://github.com/Sachayanthan-V/EmployeeReviewSystem#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^2.0.22"
+  }
+}
