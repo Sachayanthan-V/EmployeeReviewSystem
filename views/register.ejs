@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="/css/register.css">
+
+
+<div id="card">
+    
+    <h1>Register Form</h1>
+
+    <form action="/users/register" method="post" >
+        <div  class="usernameDiv">
+            <label class="usernamelabel"> User Name </label> <b>:</b>
+            <input name="username" type="text" id="username">
+        </div>
+        <div class="usernameDiv">
+            <label class="usernamelabel"> User Email </label> <b>:</b>
+            <input type="email" name="useremail" id="username">
+        </div>
+        <div class="userPasswordDiv">
+            <label class="userPasswordlabel"> New Password </label> <b>:</b>
+            <input type="text" name="userpass"  id="userPassword">
+        </div>
+        
+        <div class="userCPasswordDiv">
+            <label class="userCPasswordlabel"> Confirm Password </label> <b>:</b>
+            <input type="text" name="userCpass"  id="userCPassword">
+        </div>
+        
+        <div class="userCatagoryDiv">
+            <label >Catagory  </label> <b>:</b>
+            <input type="radio" value="admin" name="userCat" id="userCatagory">
+            &nbsp; Admin 
+            <input type="radio" value="employee" name="userCat" id="userCatagory">
+            &nbsp; Employee &nbsp;&nbsp;
+        </div>
+
+        <div >
+            <p id="dummy"> </p>
+            <button id="RegisterFormSubmit" type="submit"> SUBMIT </button>
+        </div>
+
+    </form>
+
+</div>

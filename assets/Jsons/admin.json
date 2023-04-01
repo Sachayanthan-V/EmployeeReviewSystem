@@ -1,0 +1,54 @@
+{
+    "admin" : {
+        "1" : "list employee",
+        "2" : "Assign to review",
+        "3" : "update the review of an Employee",
+        "4" : "Modify/Delete an Employee",
+        "5" : "Access for to Make Employee to Admin"
+    },
+    "Employee" : {
+        "1" : "List of views for reviews of other employees",
+        "2" : "Feedback submission for an Employees"
+    },
+    "Connection" : {
+        "1" : "name & email should be unique while creating an user",
+        "2" : "make connections to admin page with all users"
+    },
+    "EMPLOYEE_STRUCTURE" : ["name", "email", "password", "DOB", "Position", "cat", "reviewersList", "MyRating", "FinalRating"], 
+    "ADMIN_STRUCTURE" : ["name", "email", "password", "DOB", "Position", "Cat"],
+    "Employee_view" : [
+                        "ownDetails", 
+                        {
+                            "listOfEmployeReview" : {
+                                "1" : "OtherEmployeeProfile",
+                                "2" : "RatingInput",
+                                "3" : "Submit [once submitted it have to update in employee's profile and delete in that particular member]"
+                            }
+                        }
+                      ],
+    "Admin_View" : [
+                        "OwnDetails",
+                        {
+                            "listOfEmploye" : {
+                                "1" : "button to click review him, once clicked it have to go to all employees list to make to review",
+                                "2" : "Update Rating based on Review System to Final Rating of each Employee",
+                                "3" : "Make_Admin button to change any employee has Admin"
+                            }
+                        }
+                    ],
+    "Theme" : [
+        "Features (No need for extra features, just make the listed features)",
+        "Admin view",
+        "Add/remove/update/view employees",
+        "Add/update/view performance reviews",
+        "Assign employees to participate in another employee's performance review",
+        "Employee view",
+        "List of performance review requiring feedback",
+        "Submit feedback",
+        "Make 1 login for admin and employee",
+        "An employee can register, only admin can make an employee an admin"
+    ]
+}
+
+
+

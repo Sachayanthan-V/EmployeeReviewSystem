@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body .headermain, body .footermain {
+  height: 5vh;
+  width: 100vw;
+  min-height: 5vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+}
+body .headermain #headerControls, body .footermain #headerControls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .headermain #headerControls a, body .footermain #headerControls a {
+  margin: 0px 15px;
+  text-decoration: none;
+  color: purple;
+  background-color: green;
+  background-color: whitesmoke;
+  font-size: 20px;
+  padding: 3px;
+  min-width: 70px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-weight: 600;
+}
+body .headermain #headerControls a:hover, body .footermain #headerControls a:hover {
+  color: green;
+}
+body main {
+  min-height: 87vh;
+  min-width: 100vw;
+}
+
+#logo {
+  margin-left: 30px;
+  font-family: Verdana;
+  font-family: "Brush Script MT", cursive;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  padding: 3px 6px;
+  background-color: purple;
+  text-align: center;
+}/*# sourceMappingURL=layout.css.map */

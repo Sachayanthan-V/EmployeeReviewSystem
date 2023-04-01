@@ -1,2 +1,13 @@
 /node_modules
+/.vscode
 /package-lock.json
+/assets/css/employee.css.map
+/assets/css/employee.scss
+/assets/css/header.css.map
+/assets/css/header.scss
+/assets/css/layout.css.map
+/assets/css/layout.scss
+/assets/css/register.css.map
+/assets/css/register.scss
+/assets/css/home.css.map
+/assets/css/home.scss

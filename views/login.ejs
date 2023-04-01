@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="/css/register.css">
+
+<div id="card">
+    <h1>Login Form</h1>
+    <form method="post" action="/users/login">
+        <div class="usernameDiv">
+            <label class="usernamelabel"> User Name </label> <b>:</b>
+            <input name="username" type="text" id="usernameLogin">
+        </div>
+        <div class="userPasswordDiv">
+            <label for="" class="userPasswordlabel"> Password </label> <b>:</b>
+            <input name="userpass" type="text" id="userPasswordLogin">
+        </div>
+        <div class="userCatagoryDiv">
+            <label for=""> Catagory </label> <b>:</b>
+            <input type="radio" value="admin" name="userCat" id="userCatagoryLogin">
+            &nbsp; Admin 
+            <input type="radio" value="employee" name="userCat" id="userCatagoryLogin">
+            &nbsp; Employee &nbsp;&nbsp;
+        </div>
+        <div >
+            <p id="dummy"> </p>
+            <button id="LoginFormSubmit" type="submit"> SUBMIT </button>
+        </div>
+    </form>
+</div>

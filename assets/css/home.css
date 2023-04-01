@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main h1 {
+  margin: 30px;
+  color: green;
+}
+main p {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+main span {
+  color: blueviolet;
+}/*# sourceMappingURL=home.css.map */

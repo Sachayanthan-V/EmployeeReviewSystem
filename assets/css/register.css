@@ -1,0 +1,75 @@
+.footermain {
+  display: none !important;
+}
+
+main {
+  min-height: 94vh !important;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right bottom, pink, violet, orange);
+}
+
+#card {
+  background-color: #262626;
+  padding: 30px;
+  padding-top: 50px;
+  border-radius: 5px;
+  background-color: white;
+}
+#card h1 {
+  margin-bottom: 25px;
+  text-decoration: underline;
+  color: purple;
+}
+#card label {
+  font-size: 18px;
+  margin-right: 10px;
+  min-width: 150px;
+  color: green;
+  font-weight: 600;
+}
+#card div {
+  margin: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#card input {
+  margin-left: 10px;
+  min-width: 170px;
+  min-height: 20px;
+  padding: 5px 1px;
+  font-weight: 600;
+}
+#card input[type=radio] {
+  min-width: 10px;
+  padding: 0px;
+}
+#card button {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+#card #RegisterFormSubmit, #card #LoginFormSubmit {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 800;
+}
+#card #RegisterFormSubmit:hover, #card #LoginFormSubmit:hover {
+  background-color: green;
+  transform: scale(1.2);
+}
+#card b {
+  color: purple;
+}/*# sourceMappingURL=register.css.map */
