@@ -3,7 +3,14 @@
   padding: 0px;
 }
 
+body {
+  overflow: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 body .headermain, body .footermain {
+  padding: 10px 0px;
   height: 5vh;
   width: 100vw;
   min-height: 5vh;
@@ -36,8 +43,12 @@ body .headermain #headerControls a:hover, body .footermain #headerControls a:hov
   color: green;
 }
 body main {
-  min-height: 87vh;
+  min-height: 90vh;
   min-width: 100vw;
+  overflow: scroll;
+}
+body main::-webkit-scrollbar {
+  display: none;
 }
 
 #logo {

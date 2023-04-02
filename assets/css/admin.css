@@ -1,0 +1,95 @@
+section {
+  max-height: 20vh;
+  max-width: 100%;
+  min-width: 100%;
+}
+section h3 {
+  margin: 10px 25px;
+}
+
+#EmployeeSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 85vh;
+  overflow: scroll;
+}
+#EmployeeSection::-webkit-scrollbar {
+  display: none;
+}
+
+#EmployeeDetails {
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 30px 15px 30px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+#EmployeeDetails .parent {
+  width: 95%;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#EmployeeDetails .parent .child {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+span {
+  color: rgb(9, 72, 86);
+  font-size: 23px;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+.switchAdminBtn, .assignReviewBtn {
+  width: 40%;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(11, 66, 132);
+  margin: 5px;
+}
+
+.assignReviewBtn {
+  background-color: rgb(16, 55, 72);
+}
+
+.buttonclass {
+  width: 95%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonclass input, .buttonclass .reviewBtn {
+  min-height: 25px;
+  padding: 10px 15px;
+}
+.buttonclass input {
+  width: 30%;
+}
+.buttonclass .reviewBtn {
+  height: -moz-max-content;
+  height: max-content;
+  width: 60%;
+  background-color: crimson;
+  color: white;
+  font-weight: 700;
+}/*# sourceMappingURL=admin.css.map */

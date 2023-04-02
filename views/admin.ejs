@@ -1,6 +1,42 @@
-<h1>This is Admin</h1>
+<link rel="stylesheet" href="/css/admin.css">
 
-<p><%- userDetails.name %></p>
-<p><%- userDetails.password %></p>
-<p><%- userDetails.email %></p>
-<p><%- userDetails.cat %></p>
+<section class="admin">
+    <h3> Hi <span> <%- userDetails.name %> </span> Welcome!...</h3>
+</section>
+
+<hr>
+
+<div id="EmployeeSection">
+    
+    <% for(emp of Employee) { %>
+        <div id="EmployeeDetails">
+            <div class="parent">
+                <div class="child">
+                    <span> Name : </span> 
+                    <h3> <%- emp.name %> </h3>
+                </div>
+                <div  class="child">
+                    <span> Email :    </span> 
+                    <p> <%- emp.email %> </p>
+                </div>
+                <div class="child">
+                    <span> Category : </span> 
+                    <p> <%- emp.cat %> </p>
+                </div>
+            </div>
+            <div class="buttonclass">
+                <button onclick="handleMakeAdmin('<%- emp.email %>')" id="switchAdminBtn" val="<%- emp.email %>" class="switchAdminBtn"> Switch to Admin </button>
+                <button id="reviewBtn" val="<%- emp.email %>"class="assignReviewBtn"> Make Him Review </button>
+            </div>
+            <div class="buttonclass">
+                <input max="10" min="1" type="number" name="" id="">
+                <button type="submit" class="reviewBtn"> Submit </button>
+            </div>
+        </div>
+    <% } %>
+
+</div>
+
+
+
+<!-- <script src="/js/adminControls.js"></script> -->

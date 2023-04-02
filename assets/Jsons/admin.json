@@ -14,8 +14,8 @@
         "1" : "name & email should be unique while creating an user",
         "2" : "make connections to admin page with all users"
     },
-    "EMPLOYEE_STRUCTURE" : ["name", "email", "password", "DOB", "Position", "cat", "reviewersList", "MyRating", "FinalRating"], 
-    "ADMIN_STRUCTURE" : ["name", "email", "password", "DOB", "Position", "Cat"],
+    "EMPLOYEE_STRUCTURE" : ["name", "email", "password", "cat", "reviewersList", "MyRating", "FinalRating"], 
+    "ADMIN_STRUCTURE" : ["name", "email", "password", "Cat"],
     "Employee_view" : [
                         "ownDetails", 
                         {
@@ -39,12 +39,12 @@
     "Theme" : [
         "Features (No need for extra features, just make the listed features)",
         "Admin view",
-        "Add/remove/update/view employees",
-        "Add/update/view performance reviews",
-        "Assign employees to participate in another employee's performance review",
+            "Add/remove/update/view employees",
+            "Add/update/view performance reviews",
+            "Assign employees to participate in another employee's performance review",
         "Employee view",
-        "List of performance review requiring feedback",
-        "Submit feedback",
+            "List of performance review requiring feedback",
+            "Submit feedback",
         "Make 1 login for admin and employee",
         "An employee can register, only admin can make an employee an admin"
     ]

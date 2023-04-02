@@ -19,6 +19,15 @@ const employeeSchema = mongoose.Schema({
     cat : {
         type : String, 
         required : true
+    }, 
+    reviewList : {
+        type : Array,
+    }, 
+    myRating : {
+        type : Array, 
+    },
+    FinalRating : {
+        type : String
     }
 }, {
     timestamps : true
